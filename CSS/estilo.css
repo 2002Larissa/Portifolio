@@ -57,7 +57,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url(./Imagens/homemroxo.png) no-repeat;
+    background-image: url('../Imagens/homemroxo.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -147,9 +147,37 @@ body{
 
 .btn-box:hover{
     box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200 px cyan
+    0 0 15px cyan, 0 0 30px cyan,
+    0 0 60px cyan, 0 0 120px cyan
 }
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes slideRight{
     0%{
