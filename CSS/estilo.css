@@ -57,7 +57,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url('../Imagens/homemroxo.png') no-repeat;
+    background-image: url('../Imagens/homemim.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -80,7 +80,7 @@ body{
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
     animation: slideTop 1s ease forwards;
-    animation-delay: .7s;
+    animation-delay: .10s;
 }
 
 .home-content h3 span{
@@ -151,6 +151,16 @@ body{
     0 0 60px cyan, 0 0 120px cyan
 }
 
+.mim{
+    background: transparent;
+    width: 1000px;
+    position: absolute;
+    top: 50px;
+    right: -203px;
+    animation: moveUpDown 3s ease-in-out infinite alternate;
+}
+
+
 .sobre{
     display: flex;
     justify-content: center;
@@ -220,5 +230,14 @@ body{
     100%{
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+@keyframes moveUpDown{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-40px);
     }
 }
